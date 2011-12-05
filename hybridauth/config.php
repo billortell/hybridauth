@@ -37,13 +37,13 @@ return
 
 			"Facebook" => array ( 
 				"enabled" => true,
-				"keys"    => array ( "id" => "123786081068847", "secret" => "12aed62cb69fde67905f285768a5cabf" ),
+				"keys"    => array ( "id" => "", "secret" => "" ),
 				"scope"   => ""
 			),
 
 			"Twitter" => array ( 
 				"enabled" => true,
-				"keys"    => array ( "key" => "ovgdeCHXbJcTFq3tz3fNMg", "secret" => "zw0u60yiKndYyIqZsb7fhQk3Loi4LnFT7h9OCy8W7og" )
+				"keys"    => array ( "key" => "", "secret" => "" )
 			),
 
 			// windows live
