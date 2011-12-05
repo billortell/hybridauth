@@ -9,9 +9,7 @@
 	if( isset( $_GET["login"] ) ){
 		try{
 			$hybridauth = new Hybrid_Auth( $config );
-
 			$adapter = $hybridauth->authenticate( "facebook" );
-
 			$user_profile = $adapter->getUserProfile();
 		}
 		catch( Exception $e ){
@@ -89,6 +87,8 @@ $(function(){
 	});
 
 	FB.api('/me', function(response) {
+		alert(response.name);
+		console.log(response);
 		$("#hellomessage").html( "<b>Hi " + response.name + "</b>,<br />your profile url is: " + response.link );
 	});
 
